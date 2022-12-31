@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Secular One', sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    background-image:linear-gradient(180deg,orange,yellow);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container div{
+    margin: 1rem;
+}
+
+.hide{
+    display: none;
+}
+.div02{
+    border-top: 2px solid black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#name-city{
+    text-transform: capitalize;
+}
+
+h3{
+    padding: 1rem;
+}
+#form{
+    margin-bottom: -10px;
+}
+#input-name{
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+}
+#input-btn{
+    padding: 1rem .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(29, 31, 31);
+    color: rgb(243, 235, 235);
+    text-transform: uppercase;
+}
+#umidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+#umidade span:nth-child(1){
+    width: 40%;
+   border-right: 1px solid black;
+   text-align: center;
+}
+#umidade span:nth-child(2){
+    width: 45%;
+    text-align: center;
+    
+}
